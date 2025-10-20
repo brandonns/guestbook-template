@@ -2,8 +2,6 @@
 ====================================
 HOW TO USE (Cloudflare Dashboard)
 ====================================
-This is a super-simple guestbook Worker template for beginners. Edit the
-CONFIG block near the top — then deploy. No colors, no fancy layout.
 
 1) Create a Worker
    - Cloudflare Dashboard → Workers & Pages → Create → Worker.
@@ -277,7 +275,7 @@ addEventListener('DOMContentLoaded', function(){
 }
 
 // =========================
-// HTML EDIT ME!!!
+// HTML - !!!EDIT ME!!!
 // =========================
 function renderHome(entries, CONFIG){
   return `<!DOCTYPE html>
